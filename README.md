@@ -1,5 +1,6 @@
+TuraTEL SMS is a wrapper gem for sending sms from Turkish TuraTEL SMS Provider.
 
-
+```
 require 'turatel_sms.rb'
 
 TuraTEL.configure do |config|
@@ -10,6 +11,7 @@ TuraTEL.configure do |config|
 end
 
 puts TuraTEL::SMS.send_sms('1234567890','test',:from => 'SOURCE')
+```
 
 Versions
 ========
